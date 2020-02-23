@@ -1,2 +1,2 @@
-def get_move (data):
+def get_move(data):
 	pass
