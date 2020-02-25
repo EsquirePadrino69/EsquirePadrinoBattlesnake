@@ -4,7 +4,7 @@ import random
 
 import bottle
 from bottle import HTTPResponse
-
+from logic import get_move
 
 @bottle.route("/")
 def index():
@@ -54,7 +54,7 @@ def move():
 
     # Shouts are messages sent to all the other snakes in the game.
     # Shouts are not displayed on the game board.
-    shout = "I am a python snake!"
+    shout = "Angry Sock"
 
     response = {"move": move, "shout": shout}
     return HTTPResponse(
