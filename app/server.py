@@ -49,6 +49,7 @@ def move():
     # Choose a random direction to move in
     directions = ["up", "down", "left", "right"]
     move = get_move(data)
+    print(move)
 
 
 
