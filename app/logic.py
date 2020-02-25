@@ -1,3 +1,4 @@
+from random import shuffle
 def get_move(data):
 	food = set()
 	for f in data['board']['food']:
@@ -24,6 +25,7 @@ def get_move(data):
 	moves = {"left": head_left, "up": head_up, "down": head_down, "right": head_right}
 	board_height = data['board']['height']
 	board_width = data['board']['width']
+	shuffle(moves) 
 	for s, move in moves.items():
 		if move[0] < 0 or move[0] >= board_width:
 			continue
