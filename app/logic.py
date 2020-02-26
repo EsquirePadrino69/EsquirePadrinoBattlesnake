@@ -10,12 +10,12 @@ def get_move(data):
 	right = (x+1, y)
 
 	("snake") = (p)
-	if (p) is (x-1, y)
-		else right
-	if (p) is (x+1, y)
-		else left
-	if (p) is (x, y-1)
-		else down
-	if (p) is (x, y+1)
-		else up
+	if : (p) is (x-1, y)
+		else: right
+	if : (p) is (x+1, y)
+		else: left
+	if : (p) is (x, y-1)
+		else: down
+	if : (p) is (x, y+1)
+		else: up
 		
